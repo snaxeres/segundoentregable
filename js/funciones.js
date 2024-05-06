@@ -22,7 +22,7 @@ function mostrarEntrega() {
 };
 
 function registrarEntrega() {
-    const nombreDelAlumno = prompt("Identifique su legajo a partir de su nombre");
+    const nombreDelAlumno = prompt("Nuevamente escriba su nombre para que se guarde en el registro muchas gracias.");
 
     if (entregas.some(el => el.nombre === nombreDelAlumno)) {
         alert("El alumno " + nombreDelAlumno + " ya se encuentra en linea ")
