@@ -1,3 +1,12 @@
+function saludarAlumno() {    
+
+    let nombreDeAlumno = prompt("Buenas! es un placer tenerte con nosotros. Por favor ingresa tu nombre.")
+        alert("A continuacion podras seguir con la entrega. Muchas gracias por ser responsable " + nombreDeAlumno);
+        return;
+      }
+    
+saludarAlumno();
+
 function mostrarEntrega() {
     let mensaje = "Entregas de trabajos hasta el momento: \n\n";
 
