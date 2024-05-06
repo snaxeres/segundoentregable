@@ -35,7 +35,7 @@ let opcion;
 
 do {
 
-    opcion = parseInt(prompt("Bienvenido al sistema de entrega de trabajos practicos\n\n1. Para ver la responsabilidad de los alumnos.\n2. Para registrar una nueva entrega.\n\nPara salir, ingrese 0"));
+    opcion = parseInt(prompt("Bienvenido al sistema de entrega de trabajos practicos a continuacion elija la opcion segun la accion a realizar\n\n1. Para ver la responsabilidad de los alumnos.\n2. Para registrar una nueva entrega.\n\nPara salir, ingrese 0"));
 
     switch (opcion) {
         case 0:
