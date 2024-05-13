@@ -54,3 +54,14 @@ function registrarEntrega() {
         };
     };
 };
+
+function verProfesoresMasEntregas() {
+    const profesoresDeCatedra = [ " Marcelo: Profesor adjunto ", " Lucas: Profesor adjunto ", " Enri: Tutor "];
+    const alumnosQueEntregaronEnClase = [" Alumno: Enrique Alegre ", " Alumno: Marcelo Caliz ", " Alumno: Pepe Mujica"];
+    const verProfesoresMasEntregas = profesoresDeCatedra.concat(alumnosQueEntregaronEnClase)
+    alert(verProfesoresMasEntregas);    
+
+    let mensaje = "Nombres de los profesores de catedra y alumnos que entregaron en clase. Sera redireccionado para seguir con la entega muchas gracias. \n\n";
+    alert(mensaje);
+
+}
